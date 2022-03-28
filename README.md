@@ -30,9 +30,9 @@ What variable(s) are neither targets nor features, and should be removed from th
 ## Original Model
 
 ### Neural Network First Pass Accuracy
+!["images/Train_Accuracy.png"](images/Train_Accuracy.png)
 * Two layers: 8,5
 * Relu, Relu, Sigmoid
-!["images/Train_Accuracy.png"](images/Train_Accuracy.png)
 
 ### Compiling, Training, and Evaluating the Model
 * How many neurons, layers, and activation functions did you select for your neural network model, and why?

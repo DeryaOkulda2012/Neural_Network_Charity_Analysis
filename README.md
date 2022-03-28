@@ -33,6 +33,7 @@ What variable(s) are neither targets nor features, and should be removed from th
 !["images/Train_Accuracy.png"](images/Train_Accuracy.png)
 * Two layers: 8,5
 * Relu, Relu, Sigmoid
+* Accuracy: 0.5322
 
 ### Compiling, Training, and Evaluating the Model
 * How many neurons, layers, and activation functions did you select for your neural network model, and why?

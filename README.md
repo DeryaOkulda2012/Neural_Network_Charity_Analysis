@@ -35,16 +35,16 @@ Compiling, Training, and Evaluating the Model
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
 
 Attempt # 1
-o Used original model neurons, layers, and activation functions-changed bin sizes
+* Used original model neurons, layers, and activation functions-changed bin sizes
 
 Attempt # 2
-o Increased to 3 hidden layers
+* Increased to 3 hidden layers
 
 Attempt # 3
-o Changed activation functions to linear, relu, and tanh
+* Changed activation functions to linear, relu, and tanh
 
 Attempt # 4
-o Increased neurons from 8:5 to 10:8 and changed activation functions from relu:relu to relu:tanh
+* Increased neurons from 8:5 to 10:8 and changed activation functions from relu:relu to relu:tanh
 
 Were you able to achieve the target model performance?
 

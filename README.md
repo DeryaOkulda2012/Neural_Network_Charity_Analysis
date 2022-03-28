@@ -36,14 +36,22 @@ How many neurons, layers, and activation functions did you select for your neura
 Attempt # 1
   * Used original model neurons, layers, and activation functions-changed bin sizes
 
+!["images/Attempt1.png"](images/Attempt1.png)
+
 Attempt # 2
   * Increased to 3 hidden layers
+
+!["images/Attempt2.png"](images/Attempt2.png)
 
 Attempt # 3
   * Changed activation functions to linear, relu, and tanh
 
+!["images/Attempt3.png"](images/Attempt3.png)
+
 Attempt # 4
   * Increased neurons from 8:5 to 10:8 and changed activation functions from relu:relu to relu:tanh
+
+!["images/Attempt4.png"](images/Attempt4.png)
 
 Were you able to achieve the target model performance?
 

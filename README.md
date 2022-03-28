@@ -64,12 +64,18 @@ Attempt # 4-Target not achieved
 
 What steps did you take to try and increase model performance?
 Attempt # 1
+
 Changed bin sizes for APPLICATION_TYPE and CLASSIFICATION from original model
 Attempt # 2
+
 Added in third hidden layer from Attempt # 1
 Attempt # 3
+
 Changed activation functions from Attempt # 2
 Attempt # 4
+
 Changed number of neurons and activation functions from original model
-Summary
+
+## Summary
+
 Only one attempt improved the accuracy of the model but did not reach the 75% target. Further exploration and trials would need to be done to find the optimal parameters for a model that achieved an accuracy of 75% or greater

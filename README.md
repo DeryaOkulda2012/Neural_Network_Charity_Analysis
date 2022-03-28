@@ -48,35 +48,31 @@ Attempt # 4
 
 Were you able to achieve the target model performance?
 
-Original Model
+## Original Model
 
-NN_first_pass_accuracy
+### NN_first_pass_accuracy
 
 Attempt # 1-Target not achieved
-1
 
 Attempt # 2-Target not achieved
-2
 
 Attempt # 3-Target not achieved
-3
 
 Attempt # 4-Target not achieved
-4
 
 What steps did you take to try and increase model performance?
+
 Attempt # 1
+- Changed bin sizes for APPLICATION_TYPE and CLASSIFICATION from original model
 
-Changed bin sizes for APPLICATION_TYPE and CLASSIFICATION from original model
 Attempt # 2
+- Added in third hidden layer from Attempt # 1
 
-Added in third hidden layer from Attempt # 1
 Attempt # 3
+- Changed activation functions from Attempt # 2
 
-Changed activation functions from Attempt # 2
 Attempt # 4
-
-Changed number of neurons and activation functions from original model
+- Changed number of neurons and activation functions from original model
 
 ## Summary
 

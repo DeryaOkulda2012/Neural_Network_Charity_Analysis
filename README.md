@@ -28,58 +28,41 @@ What variable(s) are neither targets nor features, and should be removed from th
 
 - EIN and NAME: Identification columns
 
+## Original Model
+
+### NN_first_pass_accuracy
+!["images/Train_Accuracy.png"](images/Train_Accuracy.png)
 
 ### Compiling, Training, and Evaluating the Model
 
-How many neurons, layers, and activation functions did you select for your neural network model, and why?
+* How many neurons, layers, and activation functions did you select for your neural network model, and why?
+* What steps did you take to try and increase model performance?
+* Were you able to achieve the target model performance?
 
 Attempt # 1
   * Used original model neurons, layers, and activation functions-changed bin sizes
-
+  * Changed bin sizes for APPLICATION_TYPE and CLASSIFICATION from original model
+  * Attempt #1 - Target not achieved
 !["images/Attempt1.png"](images/Attempt1.png)
 
 Attempt # 2
   * Increased to 3 hidden layers
-
+  * Added in third hidden layer
+  * Attempt #2 - Target not achieved
 !["images/Attempt2.png"](images/Attempt2.png)
 
 Attempt # 3
   * Changed activation functions to linear, relu, and tanh
-
+  * Changed activation functions
+  * Attempt #3 - Target not achieved
 !["images/Attempt3.png"](images/Attempt3.png)
 
 Attempt # 4
   * Increased neurons from 8:5 to 10:8 and changed activation functions from relu:relu to relu:tanh
-
+  * Changed number of neurons and activation functions
+  * Attempt #4 - Target not achieved
 !["images/Attempt4.png"](images/Attempt4.png)
 
-Were you able to achieve the target model performance?
-
-## Original Model
-
-### NN_first_pass_accuracy
-
-Attempt # 1-Target not achieved
-
-Attempt # 2-Target not achieved
-
-Attempt # 3-Target not achieved
-
-Attempt # 4-Target not achieved
-
-What steps did you take to try and increase model performance?
-
-Attempt # 1
-- Changed bin sizes for APPLICATION_TYPE and CLASSIFICATION from original model
-
-Attempt # 2
-- Added in third hidden layer from Attempt # 1
-
-Attempt # 3
-- Changed activation functions from Attempt # 2
-
-Attempt # 4
-- Changed number of neurons and activation functions from original model
 
 ## Summary
 

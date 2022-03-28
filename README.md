@@ -43,7 +43,7 @@ What variable(s) are neither targets nor features, and should be removed from th
 !["images/Attempt1.png"](images/Attempt1.png)
 * Two layers: 10,6
 * Relu, Tanh, Sigmoid
-* Used original model neurons, layers, and activation functions - changed bin sizes
+* Used original model neurons, layers, changed activation functions, changed bin sizes
 * Accuracy: 0.4410
 * Attempt #1 - Target not achieved
 
@@ -59,6 +59,7 @@ What variable(s) are neither targets nor features, and should be removed from th
 !["images/Attempt3.png"](images/Attempt3.png)
 * Three layers: 10,6,3
 * Linear, Tanh, Tanh, Sigmoid
+* Changed number of neurons and activation functions
 * Accuracy: 0.5178
 * Attempt #3 - Target not achieved
 
@@ -66,8 +67,7 @@ What variable(s) are neither targets nor features, and should be removed from th
 !["images/Attempt4.png"](images/Attempt4.png)
 * Three layers: 10,8
 * Relu, Relu, Sigmoid
-* Increased neurons from 8:5 to 10:8 and changed activation functions from relu:relu to relu:tanh
-* Changed number of neurons and activation functions
+* Back to 2 hidden layers
 * Accuracy: 0.5672
 * Attempt #4 - Target not achieved
 

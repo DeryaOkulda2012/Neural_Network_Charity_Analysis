@@ -2,35 +2,34 @@
 
 ## Overview
 
-Alphabet Soup, a nonprofit philanthropic foundation dedicated to helping organizations that protect the environment, improve people's well-being, and unify the world. Alphabet Soup has raised and donated over 10 billion dollars in the past 20 years. This money has been used to invest in lifesaving technologies and organize reforestation groups around the world.
+Alphabet Soup, is a nonprofit philanthropic foundation dedicated to help various organizations around the world. By building a deep learning neural network with an at least 75% predictive accuracy determining the success or failure of charitable donations to non-profit companies.
 
-Our job is to analyze the impact of each donation and vet potential recipients. This helps ensure that the foundation's money is being used effectively. Unfortunately, not every donation the company makes is impactful. In some cases, an organization will take the money and disappear. We have been asked to predict which organizations are worth donating to and which are too high risk.
-
-Using Machine Learning and Neural Networks, create a binary classifier that is capable of predicting whether applicants will be successful if funded by Alphabet Soup.
+This neural network is built to help Alphabet Soup make future decisions on who should receive charitable grants based on historical data. The dataset provided contains information from 34,000 organizations that could potentially be used to build a model with high predictive accuracy.
 
 ## Results
 
 ### Data Preprocessing
 
 What variable(s) are considered the target(s) for your model?
-- IS_SUCCESSFUL-was the money used effectively
+- IS_SUCCESSFUL: was the money used effectively
 
 What variable(s) are considered to be the features for your model?
-- APPLICATION_TYPE -Alphabet Soup application type
-- AFFILIATION -Affiliated sector of industry
-- CLASSIFICATION -Government organization classification
-- USE_CASE -Use case for funding
-- ORGANIZATION -Organization type
-- STATUS—Active status
-- INCOME_AMT—Income classification
-- SPECIAL_CONSIDERATIONS—Special consideration for application
-- ASK_AMT—Funding amount requested
+- APPLICATION_TYPE: Alphabet Soup application type
+- AFFILIATION: Affiliated sector of industry
+- CLASSIFICATION: Government organization classification
+- USE_CASE: Use case for funding
+- ORGANIZATION: Organization type
+- STATUS: Active status
+- INCOME_AMT: Income classification
+- SPECIAL_CONSIDERATIONS: Special consideration for application
+- ASK_AMT: Funding amount requested
 
 What variable(s) are neither targets nor features, and should be removed from the input data?
 
-- EIN and NAME — Identification columns
+- EIN and NAME: Identification columns
 
-Compiling, Training, and Evaluating the Model
+
+### Compiling, Training, and Evaluating the Model
 
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
 

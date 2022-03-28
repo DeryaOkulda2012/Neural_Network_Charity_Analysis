@@ -31,6 +31,8 @@ What variable(s) are neither targets nor features, and should be removed from th
 ## Original Model
 
 ### NN_first_pass_accuracy
+* Two layers: 8,5
+* Relu, Relu, Sigmoid
 !["images/Train_Accuracy.png"](images/Train_Accuracy.png)
 
 ### Compiling, Training, and Evaluating the Model
@@ -41,29 +43,40 @@ What variable(s) are neither targets nor features, and should be removed from th
 
 ### Attempt # 1
 !["images/Attempt1.png"](images/Attempt1.png)
-  * Used original model neurons, layers, and activation functions-changed bin sizes
-  * Changed bin sizes for APPLICATION_TYPE and CLASSIFICATION from original model
-  * Attempt #1 - Target not achieved
+* Two layers: 10,6
+* Relu, Tanh, Sigmoid
+* Used original model neurons, layers, and activation functions - changed bin sizes
+* Accuracy: 0.4410
+* Attempt #1 - Target not achieved
 
 ### Attempt # 2
 !["images/Attempt2.png"](images/Attempt2.png)
-  * Increased to 3 hidden layers
-  * Added in third hidden layer
-  * Attempt #2 - Target not achieved
+* Three layers: 10,6,3
+* Relu, Relu, Tanh, Sigmoid
+* Increased to 3 hidden layers
+* Accuracy: 0.5513
+* Attempt #2 - Target not achieved
 
 ### Attempt # 3
 !["images/Attempt3.png"](images/Attempt3.png)
-  * Changed activation functions to linear, relu, and tanh
-  * Changed activation functions
-  * Attempt #3 - Target not achieved
+* Three layers: 10,6,3
+* Linear, Tanh, Tanh, Sigmoid
+* Accuracy: 0.5178
+* Attempt #3 - Target not achieved
 
 ### Attempt # 4
 !["images/Attempt4.png"](images/Attempt4.png)
-  * Increased neurons from 8:5 to 10:8 and changed activation functions from relu:relu to relu:tanh
-  * Changed number of neurons and activation functions
-  * Attempt #4 - Target not achieved
+* Three layers: 10,8
+* Relu, Relu, Sigmoid
+* Increased neurons from 8:5 to 10:8 and changed activation functions from relu:relu to relu:tanh
+* Changed number of neurons and activation functions
+* Accuracy: 0.5672
+* Attempt #4 - Target not achieved
 
 
 ## Summary
 
-Only one attempt improved the accuracy of the model but did not reach the 75% target. Further exploration and trials would need to be done to find the optimal parameters for a model that achieved an accuracy of 75% or greater
+Possibly due to overfitting, no attempt improved the accuracy of the model to be able to reach the 75% target.
+
+Further attempts could be done to find the optimal parameters for a model that might achieve an accuracy of 75% or greater.
+

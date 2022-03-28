@@ -2,9 +2,9 @@
 
 ## Overview
 
-Alphabet Soup, is a nonprofit philanthropic foundation dedicated to help various organizations around the world. By building a deep learning neural network with an at least 75% predictive accuracy determining the success or failure of charitable donations to non-profit companies.
+Alphabet Soup, is a nonprofit philanthropic foundation dedicated to help various organizations around the world. By building a deep learning neural network with an at least 75% predictive accuracy we will attempt to determine the success or failure of charitable donations to non-profits.
 
-This neural network is built to help Alphabet Soup make future decisions on who should receive charitable grants based on historical data. The dataset provided contains information from 34,000 organizations that could potentially be used to build a model with high predictive accuracy.
+This neural network is built to help Alphabet Soup make future decisions on who should receive charitable grants based on historical data. The dataset contains information from 34,000 organizations which will be used to build a model with high predictive accuracy.
 
 ## Results
 
@@ -25,7 +25,6 @@ What variable(s) are considered to be the features for your model?
 - ASK_AMT: Funding amount requested
 
 What variable(s) are neither targets nor features, and should be removed from the input data?
-
 - EIN and NAME: Identification columns
 
 ## Original Model
